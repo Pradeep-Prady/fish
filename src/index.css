@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap");
+* {
+  font-family: "El Messiri", sans-serif;
+  scroll-behavior: smooth;
+}
+.bg {
+  background: rgb(3, 4, 103);
+  background: linear-gradient(
+    360deg,
+    #030467 0%,
+    #023e8a 15%,
+    #0077b6 23%,
+    #0096c7 32%,
+    #00b4d8 41%,
+    #48cae4 50%,
+    #90e0ef 61%,
+    #ade8f4 80%,
+    #caf0f8 100%
+  );
+}
+
+.bgc {
+  background: rgb(3, 4, 103);
+  background: linear-gradient(
+    360deg,
+    #caf0f8 0%,
+    #ade8f4 11%,
+    #90e0ef 23%,
+    #48cae4 32%,
+    #00b4d8 41%,
+
+    #0096c7 50%,
+    #0077b6 61%,
+    #023e8a 80%,
+    #030467 100%
+  );
+}
+
+.glass-text {
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.27);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+}
